@@ -33,8 +33,8 @@ root = tkt.Tk()
 root.title("계산기")
 
 # 아이콘 설정
-#photo = tkt.PhotoImage(file="./윈도우계산기아이콘.png")
-#root.iconphoto(False, photo)
+photo = tkt.PhotoImage(file="C:/Users/82108/haedal_bootcamp/2차시/calculator.png")
+root.iconphoto(False, photo)
 
 # 엔트리 생성 (한줄 텍스트)
 entry = tkt.Entry(root, width=20, borderwidth=12, font=("Verdana", 13), justify="right")
